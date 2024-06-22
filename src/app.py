@@ -33,9 +33,9 @@ prompt = [
     where offline="yes"; 
     \nExample 3 - insert "Red Dead Redemption 2","Action-adventure",59,"yes","yes",5,"Rockstar Games", 
     the SQL command will be something like this '''Insert Into GAME values("Red Dead Redemption 2","Action-adventure",59,"yes","yes",5,"Rockstar Games")'''
-    \nExample 2 - Tell me all the offline games, 
+    \nExample 4 - show, 
     the SQL command will be something like this SELECT * FROM GAME 
-    where price=0;
+    
     also the sql code should not have ``` in beginning or end and sql word in output
     """
 ]
