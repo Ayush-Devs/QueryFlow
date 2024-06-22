@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "QueryFlow"
+version = "0.1.0"
+description = "Effortlessly query databases with this text-to-query model."
+authors = ["Ayush Agarwal <dearayush2@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.35.0"
+google-generativeai = "^0.7.0"
+python-dotenv = "^1.0.1"
+matplotlib = "^3.9.0"
+openai = "^1.35.3"
+sqlalchemy = "^2.0.31"
+csvs-to-sqlite = "^1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
