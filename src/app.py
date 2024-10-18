@@ -41,6 +41,7 @@ prompt = [
 ]
 
 st.set_page_config(page_title="QueryFlow")
+
 st.sidebar.header("Gemini App To Retrieve SQL Data")  # Place heading in the sidebar
 question = st.sidebar.text_input("Input: ", key="input")  # Place text input in the sidebar
 submit = st.sidebar.button("Query")  # Place button in the sidebar
